@@ -1,0 +1,12 @@
+.red-textt{
+    color: aqua;
+}
+#main{
+    color:brown;
+}
+p[draggable]{
+    color: olive;
+}
+*{
+    color:cadetblue
+    }
