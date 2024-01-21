@@ -1,0 +1,24 @@
+/* Write your code here:
+combinind css seoectors methods 
+1 group =apply to both selectors.
+2 child (parent > child) apply to direct child of left side.
+3 descendant (ancestor descendant)=apply to a descendant of left side as long as have ancestor that matches the selector.(single space )
+4 chaining =apply where all instances of selectors are true .(no spacing between selectors)
+5 combining combiners=ancestor chain (simgle spape between)
+*/
+ 
+h1,h2{
+  color: blueviolet;
+}
+.box > p {
+  color:firebrick;
+}
+.box ul{
+  color: blue;
+}
+li.done{  
+  color: seagreen;
+}
+ul p.done{
+  font-size: 0.5rem;
+}
